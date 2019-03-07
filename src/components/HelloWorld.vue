@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="tip">pc端请使用移动端模拟或使用移动端打开</div>
     <div class="tipText">{{text}}</div>
-    <gesture-lock :containerWidth="400"
+    <gesture-lock :containerWidth="width"
                   :cycleRadius="30"
                   @end="onEnd"
                   :password="password"></gesture-lock>
@@ -21,6 +21,11 @@ export default {
       title: "手势图案",
       password: [],
       text: '请设定手势'
+    }
+  },
+  computed: {
+    width () {
+      return window.innerWidth
     }
   },
   methods: {

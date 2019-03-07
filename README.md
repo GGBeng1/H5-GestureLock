@@ -1,29 +1,21 @@
-# lock
+# H5移动端手势锁 H5-GestureLock
 
-## Project setup
+## 安装
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 运行 
 ```
 yarn run serve
 ```
-
-### Compiles and minifies for production
+### 说明
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+纯js开发，适用于vue项目或js项目！~
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+### 查看示例
+See [demo](https://ggbeng1.github.io/H5-GestureLock/#/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 展示图
+<img src="public/demo.png" alt="">
