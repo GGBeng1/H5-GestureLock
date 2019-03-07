@@ -5,5 +5,7 @@ module.exports = {
     https: false,
     port: 9527,
   },
-  assetsDir: './static',
+  assetsDir: 'static',
+  outputDir: 'docs',
+  publicPath: './'
 };
