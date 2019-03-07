@@ -4,5 +4,6 @@ module.exports = {
     open: true,
     https: false,
     port: 9527,
-  }
+  },
+  assetsDir: './static',
 };
