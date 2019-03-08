@@ -20,7 +20,7 @@ export default {
     return {
       title: "手势图案",
       password: [],
-      text: '请设定手势'
+      text: '请设定手势',
     }
   },
   computed: {
@@ -44,6 +44,10 @@ export default {
       }
     }
   },
+  mounted () {
+
+  }
+
 }
 </script>
 

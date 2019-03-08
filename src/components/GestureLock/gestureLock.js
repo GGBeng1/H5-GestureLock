@@ -11,7 +11,7 @@ class GestureLock {
     this.offsetX = 0; // 容器的 X 偏移
     this.offsetY = 0; // 容器的 Y 偏移
     this.activeLine = {}; // 最后一个激活的锁与当前位置之间的线段
-    this.key = 10;
+    this.key = 10; //vue VNode循环key值防止重复
     this.windowWidth = window.innerWidth; // 窗口大小
 
     this.initCircleArray();
