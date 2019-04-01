@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import GestureLock from '@/components/GestureLock';
+import GestureLock from '@/components/GestureLock/gestureLock';
 export default {
   name: 'HelloWorld',
   components: {

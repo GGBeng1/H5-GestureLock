@@ -32,7 +32,7 @@
 import GestureLock from './gestureLock';
 
 export default {
-  name: 'index',
+  name: 'gestureLock',
   props: {
     /**
      * 容器宽度
