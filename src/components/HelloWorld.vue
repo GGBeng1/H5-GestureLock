@@ -33,6 +33,7 @@ export default {
       if (this.password.length) {
         if (this.password.join('') === data.join('')) {
           this.text = '手势设定完成'
+          window.alert("你的密码是" + this.password)
           this.password = []
         } else {
           this.text = '两次手势设定不一致'
