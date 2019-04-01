@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import GestureLock from './gestureLock';
+import GestureLock from './gestureLock.js';
 
 export default {
   name: 'gestureLock',
